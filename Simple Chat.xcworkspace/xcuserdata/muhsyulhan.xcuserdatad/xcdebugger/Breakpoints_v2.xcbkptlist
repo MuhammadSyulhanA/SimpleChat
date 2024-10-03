@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4EE0F53E-98AC-426C-B50D-B7C952ABC57F"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76A8529B-B007-4D32-90DE-7A2F3FEE3FF0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Simple Chat/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CBA05059-D689-4864-A6FA-40E40AD23B50"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Simple Chat/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "observeMessages()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CBA05059-D689-4864-A6FA-40E40AD23B50 - 29c3b58b2ecbde9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRQueryDocumentSnapshot) -&gt; Swift.Optional&lt;(message: Swift.String, timestamp: __C.FIRTimestamp, isVoiceMessage: Swift.Bool, voiceURL: Swift.Optional&lt;Foundation.URL&gt;)&gt; in closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Simple_Chat.ViewController.observeMessages() -&gt; ()"
+                  moduleName = "Simple Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhsyulhan/Documents/NewStudy/Simple%20Chat/Simple%20Chat/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "CBA05059-D689-4864-A6FA-40E40AD23B50 - 29c3b58b2ecbde9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRQueryDocumentSnapshot) -&gt; Swift.Optional&lt;(message: Swift.String, timestamp: __C.FIRTimestamp, isVoiceMessage: Swift.Bool, voiceURL: Swift.Optional&lt;Foundation.URL&gt;)&gt; in closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Simple_Chat.ViewController.observeMessages() -&gt; ()"
+                  moduleName = "Simple Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhsyulhan/Documents/NewStudy/Simple%20Chat/Simple%20Chat/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "656">
+               </Location>
+               <Location
+                  uuid = "CBA05059-D689-4864-A6FA-40E40AD23B50 - 29c3b58b2ecbde9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRQueryDocumentSnapshot) -&gt; Swift.Optional&lt;(message: Swift.String, timestamp: __C.FIRTimestamp, isVoiceMessage: Swift.Bool, voiceURL: Swift.Optional&lt;Foundation.URL&gt;)&gt; in closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Simple_Chat.ViewController.observeMessages() -&gt; ()"
+                  moduleName = "Simple Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhsyulhan/Documents/NewStudy/Simple%20Chat/Simple%20Chat/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "1048">
+               </Location>
+               <Location
+                  uuid = "CBA05059-D689-4864-A6FA-40E40AD23B50 - 29c3b58b2ecbde9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRQueryDocumentSnapshot) -&gt; Swift.Optional&lt;(message: Swift.String, timestamp: __C.FIRTimestamp, isVoiceMessage: Swift.Bool, voiceURL: Swift.Optional&lt;Foundation.URL&gt;)&gt; in closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Simple_Chat.ViewController.observeMessages() -&gt; ()"
+                  moduleName = "Simple Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhsyulhan/Documents/NewStudy/Simple%20Chat/Simple%20Chat/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "1452">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "101DD904-7C04-4EA7-8E55-21FCC2F9A92A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Simple Chat/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "observeMessages()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "101DD904-7C04-4EA7-8E55-21FCC2F9A92A - ec637e3abdb3a343"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Simple_Chat.ViewController.observeMessages() -&gt; ()"
+                  moduleName = "Simple Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhsyulhan/Documents/NewStudy/Simple%20Chat/Simple%20Chat/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "101DD904-7C04-4EA7-8E55-21FCC2F9A92A - 1e0f87bd87bde29f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Simple_Chat.ViewController.observeMessages() -&gt; ()"
+                  moduleName = "Simple Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhsyulhan/Documents/NewStudy/Simple%20Chat/Simple%20Chat/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03B53429-C557-4003-B277-582006211563"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Simple Chat/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "274"
+            endingLineNumber = "274"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4486C838-827A-4DD0-A22C-0DED6879BEAD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Simple Chat/ChatTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "222"
+            endingLineNumber = "222"
+            landmarkName = "playPauseTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4486C838-827A-4DD0-A22C-0DED6879BEAD - 5b88e405be3bbccf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Simple_Chat.ChatTableViewCell.playPauseTapped(__C.UIView) -&gt; ()"
+                  moduleName = "Simple Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhsyulhan/Documents/NewStudy/Simple%20Chat/Simple%20Chat/ChatTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "223"
+                  endingLineNumber = "223"
+                  offsetFromSymbolStart = "312">
+               </Location>
+               <Location
+                  uuid = "4486C838-827A-4DD0-A22C-0DED6879BEAD - 5b88e405be3bbce8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Simple_Chat.ChatTableViewCell.playPauseTapped(__C.UIView) -&gt; ()"
+                  moduleName = "Simple Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhsyulhan/Documents/NewStudy/Simple%20Chat/Simple%20Chat/ChatTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "222"
+                  endingLineNumber = "222"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C8C00DD-3E09-416D-B00E-E79FF55D041A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Simple Chat/ChatTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "221"
+            endingLineNumber = "221"
+            landmarkName = "playPauseTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7C8C00DD-3E09-416D-B00E-E79FF55D041A - 5b88e405be3bbc89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Simple_Chat.ChatTableViewCell.playPauseTapped(__C.UIView) -&gt; ()"
+                  moduleName = "Simple Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhsyulhan/Documents/NewStudy/Simple%20Chat/Simple%20Chat/ChatTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "221"
+                  endingLineNumber = "221"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "7C8C00DD-3E09-416D-B00E-E79FF55D041A - 5b88e405be3bbce8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Simple_Chat.ChatTableViewCell.playPauseTapped(__C.UIView) -&gt; ()"
+                  moduleName = "Simple Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/muhsyulhan/Documents/NewStudy/Simple%20Chat/Simple%20Chat/ChatTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "222"
+                  endingLineNumber = "222"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77357427-5601-4BC3-9628-607DCB3C02E5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Simple Chat/ChatTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "configure(with:timestamp:isVoiceMessage:voiceURL:isSender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D4A1F2EB-E30B-438C-AEE8-65109326C7B9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Simple Chat/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "272"
+            endingLineNumber = "272"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
