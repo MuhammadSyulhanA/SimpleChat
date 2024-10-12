@@ -15,6 +15,10 @@
 		69041ABE2CADC0EE00ED7ED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69041ABC2CADC0EE00ED7ED5 /* LaunchScreen.storyboard */; };
 		69041AC62CADC39F00ED7ED5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69041AC52CADC39F00ED7ED5 /* GoogleService-Info.plist */; };
 		69041AC82CADCFD000ED7ED5 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69041AC72CADCFD000ED7ED5 /* ChatTableViewCell.swift */; };
+		691288F22CAEC42F00912D79 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691288F12CAEC42F00912D79 /* ChatViewController.swift */; };
+		691288F42CAEC90300912D79 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691288F32CAEC90300912D79 /* MyCell.swift */; };
+		691288F62CAF1AC400912D79 /* TextChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691288F52CAF1AC400912D79 /* TextChatCell.swift */; };
+		691288F92CAF1AF300912D79 /* AudioChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691288F82CAF1AF300912D79 /* AudioChatCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		69041ABF2CADC0EE00ED7ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69041AC52CADC39F00ED7ED5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		69041AC72CADCFD000ED7ED5 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		691288F12CAEC42F00912D79 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		691288F32CAEC90300912D79 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		691288F52CAF1AC400912D79 /* TextChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextChatCell.swift; sourceTree = "<group>"; };
+		691288F82CAF1AF300912D79 /* AudioChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioChatCell.swift; sourceTree = "<group>"; };
 		797FE43E70C66EC838B549DF /* Pods_Simple_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8131931B42FECCFAD328FDFE /* Pods-Simple Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple Chat.release.xcconfig"; path = "Target Support Files/Pods-Simple Chat/Pods-Simple Chat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +81,7 @@
 		69041AB02CADC0E900ED7ED5 /* Simple Chat */ = {
 			isa = PBXGroup;
 			children = (
+				691288F72CAF1ACE00912D79 /* Cell */,
 				69041AB12CADC0E900ED7ED5 /* AppDelegate.swift */,
 				69041AB32CADC0E900ED7ED5 /* SceneDelegate.swift */,
 				69041AB52CADC0E900ED7ED5 /* ViewController.swift */,
@@ -80,9 +89,20 @@
 				69041ABC2CADC0EE00ED7ED5 /* LaunchScreen.storyboard */,
 				69041ABF2CADC0EE00ED7ED5 /* Info.plist */,
 				69041AC52CADC39F00ED7ED5 /* GoogleService-Info.plist */,
-				69041AC72CADCFD000ED7ED5 /* ChatTableViewCell.swift */,
+				691288F12CAEC42F00912D79 /* ChatViewController.swift */,
 			);
 			path = "Simple Chat";
+			sourceTree = "<group>";
+		};
+		691288F72CAF1ACE00912D79 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				69041AC72CADCFD000ED7ED5 /* ChatTableViewCell.swift */,
+				691288F32CAEC90300912D79 /* MyCell.swift */,
+				691288F52CAF1AC400912D79 /* TextChatCell.swift */,
+				691288F82CAF1AF300912D79 /* AudioChatCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		8545EB06E4339F2403FD18D6 /* Pods */ = {
@@ -209,10 +229,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				691288F92CAF1AF300912D79 /* AudioChatCell.swift in Sources */,
 				69041AB62CADC0E900ED7ED5 /* ViewController.swift in Sources */,
 				69041AC82CADCFD000ED7ED5 /* ChatTableViewCell.swift in Sources */,
 				69041AB22CADC0E900ED7ED5 /* AppDelegate.swift in Sources */,
+				691288F42CAEC90300912D79 /* MyCell.swift in Sources */,
+				691288F22CAEC42F00912D79 /* ChatViewController.swift in Sources */,
 				69041AB42CADC0E900ED7ED5 /* SceneDelegate.swift in Sources */,
+				691288F62CAF1AC400912D79 /* TextChatCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

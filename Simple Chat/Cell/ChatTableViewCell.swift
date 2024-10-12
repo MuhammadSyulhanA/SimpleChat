@@ -46,7 +46,7 @@ class ChatTableViewCell: UITableViewCell {
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        self.selectionStyle = .none
+
         setupChild()
         setupUI()
         setupConstraint()
@@ -58,7 +58,7 @@ class ChatTableViewCell: UITableViewCell {
     
     private func setupChild() {
         addSubview(bubbleBackgroundView)
-        bubbleBackgroundView.addSubview(messageLabel)
+//        bubbleBackgroundView.addSubview(messageLabel)
         addSubview(timeLabel)
         bubbleBackgroundView.addSubview(playPauseButton)
 //        bubbleBackgroundView.addSubview(waveformView)
@@ -66,17 +66,12 @@ class ChatTableViewCell: UITableViewCell {
     }
     
     private func setupUI() {
-//        let tapgest = UITapGestureRecognizer(target: self, action: #selector(playPauseTapped(_:)))
-//        bubbleBackgroundView.addGestureRecognizer(tapgest)
-//        
         timeLabel.font = UIFont.systemFont(ofSize: 10)
         timeLabel.textColor = .lightGray
         
         // Setup playPauseButton
         playPauseButton.setTitle("Tes", for: .normal)
-        playPauseButton.setImage(UIImage(systemName: "play.fill"), for: .normal)
         playPauseButton.tintColor = .white
-//        playPauseButton.addTarget(self, action: #selector(playPauseTapped(_:)), for: .touchUpInside) // Menggunakan addTarget
         playPauseButton.backgroundColor = .red
         
         // Setup waveformView
@@ -99,15 +94,15 @@ class ChatTableViewCell: UITableViewCell {
             make.width.equalTo(120)
         }
         
-        messageLabel.snp.makeConstraints { make in
-            make.top.equalToSuperview().offset(10)
-            make.leading.equalToSuperview().offset(20)
-            make.trailing.equalToSuperview().offset(-20)
-            make.bottom.equalToSuperview().offset(-10)
-        }
+//        messageLabel.snp.makeConstraints { make in
+//            make.top.equalToSuperview().offset(10)
+//            make.leading.equalToSuperview().offset(20)
+//            make.trailing.equalToSuperview().offset(-20)
+//            make.bottom.equalToSuperview().offset(-10)
+//        }
         
         timeLabel.snp.makeConstraints { make in
-            make.leading.equalTo(bubbleBackgroundView.snp.trailing).offset(5)
+            make.trailing.equalTo(bubbleBackgroundView.snp.leading).offset(5)
             make.bottom.equalTo(bubbleBackgroundView.snp.bottom)
         }
         
@@ -140,10 +135,11 @@ class ChatTableViewCell: UITableViewCell {
         timeLabel.text = timeString
         
         if isVoiceMessage, let voiceURL = voiceURL {
-            messageLabel.isHidden = true
+//            messageLabel.isHidden = true
             playPauseButton.isHidden = false
-            waveformView.isHidden = false
-            durationLabel.isHidden = false
+            playPauseButton.isUserInteractionEnabled = true
+//            waveformView.isHidden = false
+//            durationLabel.isHidden = false
             
             downloadVoiceMessage(from: voiceURL) { [weak self] localURL in
                 guard let strongSelf = self, let localURL = localURL else { return }
@@ -159,7 +155,7 @@ class ChatTableViewCell: UITableViewCell {
                 }
             }
         } else {
-            messageLabel.isHidden = false
+//            messageLabel.isHidden = false
             playPauseButton.isHidden = true
             waveformView.isHidden = true
             durationLabel.isHidden = true

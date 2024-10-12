@@ -42,6 +42,7 @@ class ViewController: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDe
         tableView.dataSource = self
         tableView.register(ChatTableViewCell.self, forCellReuseIdentifier: "cell")
         tableView.separatorStyle = .none
+        tableView.isUserInteractionEnabled = true
         view.addSubview(tableView)
         
         messageInputBar = UIView()
@@ -264,12 +265,13 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         
         print("dataaa: \(messages[indexPath.row])")
         cell.selectionStyle = .none
-        cell.playPauseButton.addTarget(self, action: #selector(playPauseTapped(_:)), for: .touchUpInside)
+        cell.isUserInteractionEnabled = true
         
         if messages[indexPath.row].isVoiceMessage {
             cell.configure(with: "Voice Note", timestamp: messages[indexPath.row].timestamp, isVoiceMessage: true, voiceURL: messages[indexPath.row].voiceURL)
+            cell.playPauseButton.accessibilityIdentifier = "\(indexPath.section)"
             cell.playPauseButton.tag = indexPath.row
-            
+            cell.playPauseButton.addTarget(self, action: #selector(darada), for: .touchUpInside)
         } else {
             cell.configure(with: messages[indexPath.row].message, timestamp: messages[indexPath.row].timestamp, isVoiceMessage: false, voiceURL: nil)
         }
@@ -277,23 +279,12 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        print("aaaaaa")
-//    }
+    @objc private func actionDetailMediaMessageListener(_ sender: UIButton) {
+        let section = Int(sender.accessibilityIdentifier ?? "0") ?? 0
+        let indexPath = IndexPath(row: sender.tag, section: section)
+    }
     
-    @objc func playPauseTapped(_ sender: UIButton) {
-        print("aaaaaa")
-//        guard let player = audioPlayer else { return }
-//        
-//        if isPlaying {
-//            player.pause()
-//            playPauseButton.setImage(UIImage(systemName: "play.fill"), for: .normal)
-//            stopWaveAnimation()
-//        } else {
-//            player.play()
-//            playPauseButton.setImage(UIImage(systemName: "pause.fill"), for: .normal)
-//            startWaveAnimation()
-//        }
-//        isPlaying.toggle()
+    @objc func darada() {
+        print("aaaaaaa hahahhhaa")
     }
 }
